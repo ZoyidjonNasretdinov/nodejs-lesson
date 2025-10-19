@@ -36,4 +36,5 @@ const path = require('path')
 
 // console.log(path.parse(__filename).root)
 
-console.log(path.join(__dirname, "template", "index.html"))
+// console.log(path.join(__dirname, "template", "index.html"))
+console.log(path.resolve(__dirname, "templates", 'index.html'))
